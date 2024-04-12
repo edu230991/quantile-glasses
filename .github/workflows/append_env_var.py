@@ -3,7 +3,7 @@
 
 import os
 import datetime as dt
-from pyenerginet import __version__
+from quantile_glasses import __version__
 
 env_file = os.getenv("GITHUB_ENV")
 now_str = dt.datetime.now(dt.UTC).strftime("%Y%m%d%H%M%S")
